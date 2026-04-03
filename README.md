@@ -2,7 +2,7 @@
 
 ## 📌 Overview
 
-This repository contains the code and methodology for detecting multi-dimensional hate speech in Bengali and code-mixed "Banglish" social media text.
+This repository contains the code and methodology for detecting multi-dimensional hate speech in Bengali social media text.
 
 Unlike traditional classification pipelines that assign a single probability score, this project treats hate speech detection as a **Generative Extraction** problem. We utilize autoregressive Large Language Models (LLMs) fine-tuned via **QLoRA** (Quantized Low-Rank Adaptation) to simultaneously perform linguistic reasoning and output strict, machine-readable JSON dictionaries mapping three distinct dimensions:
 
@@ -127,4 +127,4 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 ## 📄 License
 
-This project is licensed under the [MIT License](https://www.google.com/search?q=LICENSE).
+This project is licensed under the [MIT License](LICENSE).
